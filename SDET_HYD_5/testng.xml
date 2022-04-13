@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="http://localhost:8084"/>
+<parameter name="UN" value="rmgyantra"/>
+<parameter name="PWD" value="rmgy@9999"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.DDT.ReadingDataFromXmlTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
