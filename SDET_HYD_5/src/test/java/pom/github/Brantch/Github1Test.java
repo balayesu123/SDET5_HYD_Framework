@@ -1,5 +1,11 @@
 package pom.github.Brantch;
 
-public class Github1Test {
+import org.testng.annotations.Test;
 
+public class Github1Test {
+  @Test
+  public void gitHub1()
+  {
+	  String n="bala";
+  }
 }
